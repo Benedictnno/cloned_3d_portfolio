@@ -29,46 +29,37 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 3, suffix: "+", label: "Years of Experience" },
+  { value: 2, suffix: "", label: "organisations worked for" },
+  { value: 20, suffix: "+", label: "Completed Projects" },
+  { value: 90, suffix: "%", label: "Project completion rate" },
 ];
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath:
+      "https://miro.medium.com/v2/resize:fit:800/1*v2vdfKqD4MtmTSgNP0o5cg.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath:
+      "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/7c/a1/eb/7ca1eb00-cc83-11cb-0072-47f624f9a1b7/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfQ4MH3vLA6l72ULn3Up_6undPBcXoERMFcA&shttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFTytJXaZrs_aCzd8IcEjptHQAD9sGTBoQxA&shttps://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath:
+      "https://miro.medium.com/v2/resize:fit:2000/0*zj_kGMq6f2ZxW7p3.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath:
+      "https://cdn.prod.website-files.com/6320125ace536b6ad148eca3/66502d746f57d299fe0e0c31_Image%201-Express.js.webp",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
+    imgPath:
+      "https://images.ctfassets.net/23aumh6u8s0i/6pjUKboBuFLvCKkE3esaFA/5f2101d6d2add5c615db5e98a553fc44/nextjs.jpeg",
+  }
 ];
 
 const abilities = [
@@ -114,20 +105,23 @@ const techStackImgs = [
 
 const techStackIcons = [
   {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    name: "MERN stack Developer",
+    modelPath: "/models/node-transformed.glb",
+
     scale: 1,
     rotation: [0, 0, 0],
   },
+  // {
+  //   name: "Typescript Developer",
+  //   modelPath: "/models/git-svg-transformed.glb",
+
+  //   scale: 0.8,
+  //   rotation: [0, 0, 0],
+  // },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
-    scale: 0.8,
-    rotation: [0, 0, 0],
-  },
-  {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
+    name: "frontend Developer",
+    modelPath: "/models/react_logo-transformed.glb",
+
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
@@ -138,8 +132,9 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
+    name: "Backend developer",
+    modelPath: "/models/python-transformed.glb",
+
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
@@ -148,20 +143,20 @@ const techStackIcons = [
 const expCards = [
   {
     review:
-      "Bendict brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+      "Bendict brought creativity and technical expertise to the team, significantly improving our server performance. His work has been invaluable in delivering faster experiences.",
+    imgPath: "/images/Sparrow_logo.jpg",
+    logoPath: "/images/Sparrow_logo.jpg",
+    title: "Backend Developer",
+    date: "January 2024 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
+      "Developed and maintained the business logic for the sparrow Networkx website.",
+      "Collaborated closely with Front-end developers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
     ],
   },
   {
     review:
-      "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+      "Benedict's work on useKorrin app brought a high level of quality and efficiency. He delivered solutions that enhanced our web experience & meet our product goals.",
     imgPath: "/images/korrin.png",
     logoPath: "/images/korrin.png",
     title: " Frontend Developer ",
@@ -169,20 +164,21 @@ const expCards = [
     responsibilities: [
       "Designed and implemented responsive user interfaces using React.js and Next.js.",
       "Improved app performance and user experience through code optimization and testing.",
-      "Collaborated with backend developers and designers for seamless integration.",
+      "Collaborated with backend developers and designers for seamless integrations.",
+      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
     ],
   },
   {
     review:
-      "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/sparrow_logo.png",
-    logoPath: "/images/sparrow_logo.png",
+      "Benedict's contributions to Sparrow Networkx's E-commerce applications have been outstanding. He approaches challenges with a problem-solving mindset.",
+    imgPath: "/images/Sparrow_logo.jpg",
+    logoPath: "/images/Sparrow_logo.jpg",
     title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    date: "June 2022 - febuary 2023",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Contributed the development of Sparrow Networkx's E-commerce applications, focusing on scalability.",
+      "Worked as fullstack engineer to integrate APIs seamlessly with the frontend.",
+      "Created a search engine where users can quickly refine their search by applying filters such as categories, brands, price ranges, and ratings. This helps them find the right products more efficiently, especially when browsing through large inventories of gadgets and electronics.",
     ],
   },
 ];
@@ -207,62 +203,65 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Benedict. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Benedict was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Collaborating with Benedict was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Benedict's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Benedict is the ideal partner.",
     imgPath: "/images/client2.png",
   },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
-  },
+  // {
+  //   name: "Marvin McKinney",
+  //   mentions: "@marvinmckinney",
+  //   review:
+  //     "Benedict was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
+  //   imgPath: "/images/client5.png",
+  // },
+  // {
+  //   name: "Floyd Miles",
+  //   mentions: "@floydmiles",
+  //   review:
+  //     "Benedict’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+  //   imgPath: "/images/client4.png",
+  // },
+  // {
+  //   name: "Albert Flores",
+  //   mentions: "@albertflores",
+  //   review:
+  //     "Benedict was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+  //   imgPath: "/images/client6.png",
+  // },
 ];
 
 const socialImgs = [
-  {
-    name: "insta",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
+  // {
+  //   name: "insta",
+  //   imgPath: "/images/insta.png",
+  //   link: "",
+  // },
+  // {
+  //   name: "fb",
+  //   imgPath: "/images/fb.png",
+  // },
   {
     name: "x",
     imgPath: "/images/x.png",
+    link: "https://x.com/BenedictNnaoma",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/benedict-nnaoma-73285a242/",
   },
 ];
 

@@ -53,6 +53,8 @@ const Contact = () => {
                 ref={formRef}
                 onSubmit={handleSubmit}
                 className="w-full flex flex-col gap-7"
+                action="https://formspree.io/f/xayzrjgl"
+                method="POST"
               >
                 <div>
                   <label htmlFor="name">Your name</label>
