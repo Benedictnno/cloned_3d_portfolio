@@ -69,22 +69,21 @@ const AppShowcase = () => {
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
-            <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/food_app.png"
-                  alt="Library Management Platform"
-                />
+            <a href="https://delicacy-hub.netlify.app/" target="blank">
+              <div className="project" ref={libraryRef}>
+                <div className="image-wrapper bg-[#FFEFDB]">
+                  <img src="/images/food_app.png" alt="Delicacy Hub" />
+                </div>
+                <h2> Delicacy Hub </h2>
+                <p className="text-white-50 md:text-xl">
+                  is your go-to platform for all things food and drink.
+                </p>
               </div>
-              <h2> Delicacy Hub </h2>
-              <p className="text-white-50 md:text-xl">
-                is your go-to platform for all things food and drink.
-              </p>
-            </div>
+            </a>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/Qp2p.png" alt="YC Directory App" />
+                <img src="https://delicacy-hub.netlify.app/" alt="QP2P" />
               </div>
               <h2>QP2P- An on project</h2>
               <p className="text-white-50 md:text-xl">
