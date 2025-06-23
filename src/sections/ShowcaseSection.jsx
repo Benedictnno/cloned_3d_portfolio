@@ -48,37 +48,51 @@ const AppShowcase = () => {
       <div className="w-full">
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
-            <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
-            </div>
-            <div className="text-content">
-              <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
-                user-friendly experience.
-              </p>
-            </div>
+            <a href="https://sparrowgadgets.netlify.app/" target="blank">
+              <div className="image-wrapper">
+                <img
+                  src="/images/sparrow_gadgets.png"
+                  alt="Ryde App Interface"
+                />
+              </div>
+              <div className="text-content">
+                <h2>Sparrow Networkx</h2>
+                <p className="text-white-50 md:text-xl">
+                  An E-Commerce app designed to provide a seamless shopping
+                  experience, allowing users to browse, select, and purchase a
+                  wide range of electronics effortlessly. built with React js,
+                  mongo db,express js & TailwindCSS for a fast, user-friendly
+                  experience. And has an admin panel
+                </p>
+              </div>
+            </a>
           </div>
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper bg-[#FFEFDB]">
                 <img
-                  src="/images/project2.png"
+                  src="/images/food_app.png"
                   alt="Library Management Platform"
                 />
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2> Delicacy Hub </h2>
+              <p className="text-white-50 md:text-xl">
+                is your go-to platform for all things food and drink.
+              </p>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+                <img src="/images/Qp2p.png" alt="YC Directory App" />
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>QP2P- An on project</h2>
+              <p className="text-white-50 md:text-xl">
+                QP2P is a platform that offers a seamless, secure, and automated
+                environment for buyers and sellers to trade cryptocurrencies
+                without intermediaries, giving you a truly decentralized and
+                hassle-free experience.
+              </p>
             </div>
           </div>
         </div>
